@@ -14,7 +14,7 @@ make validate
 
 will check that `vocab.ttl` and `description.ttl` are valid Turtle files.
 
-## Infer new triples based on your RDFS vocabulary.
+## Infer new triples based on your RDFS vocabulary
 
 ```
 make inferred.ttl
