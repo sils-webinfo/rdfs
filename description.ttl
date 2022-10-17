@@ -1,0 +1,13 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ex: <http://example.org/>
+
+# This is just an example. Replace this file with your own
+# description.ttl describing photographs from the Rijksmuseum.
+
+ex:ryanshaw rdfs:label "Ryan Shaw" ;
+  ex:teaching ex:inls620 ;
+  ex:taking ex:puppyPrimer .
+
+ex:inls620 rdfs:label "Web Information Organization" .
+
+ex:puppyPrimer rdfs:label "Puppy Primer" .

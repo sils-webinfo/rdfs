@@ -1,0 +1,30 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ex: <http://example.org/>
+
+# This is just an example. Replace this file with your own vocab.ttl
+# describing the classes and properties used in your description.ttl.
+
+ex:Teacher a rdfs:Class ;
+  rdfs:label "Teacher"@en ;
+  rdfs:comment "A person who is currently teaching a class."@en .
+
+ex:Student a rdfs:Class ;
+  rdfs:label "Student"@en ;
+  rdfs:comment "A person who is currently enrolled in a class."@en .
+
+ex:Course a rdfs:Class ;
+  rdfs:label "Course"@en ;
+  rdfs:comment "A series of lessons in a particular subject."@en .
+
+ex:teaching a rdf:Property ;
+  rdfs:label "teaches"@en ;
+  rdfs:comment "This property relates teachers to the courses they are currently teaching."@en ;
+  rdfs:domain ex:Teacher ;
+  rdfs:range ex:Course .
+
+ex:taking a rdf:Property ;
+  rdfs:label "taking"@en ;
+  rdfs:comment "This property relates students to the courses they are currently enrolled in."@en ;
+  rdfs:domain ex:Student ;
+  rdfs:range ex:Course .
