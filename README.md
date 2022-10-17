@@ -3,7 +3,7 @@
 Clone this repository somewhere below your home directory:
 
 ```
-git clone https://github.com/sils-webinfo/rdf-serializations.git
+git clone https://github.com/sils-webinfo/rdfs.git
 ```
 
 ## Validate your Turtle files
