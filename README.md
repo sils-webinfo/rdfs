@@ -1,10 +1,8 @@
 # RDFS
 
-Clone this repository somewhere below your home directory:
-
-```
-git clone https://github.com/sils-webinfo/rdfs.git
-```
+This repository is set up to enable you to validate Turtle files,
+infer new triples based on an RDFS vocabulary, and visualize your
+triples as a graph.
 
 ## Validate your Turtle files
 
@@ -43,4 +41,4 @@ make submission.zip
 
 will create a file `submission.zip`, which you can then submit here:
 
-https://aeshin.org/teaching/assignment/209/submit/
+https://aeshin.org/teaching/assignment/218/submit/
