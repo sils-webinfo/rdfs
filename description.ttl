@@ -2,7 +2,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX ex: <http://example.org/>
 
 # This is just an example. Replace this file with your own
-# description.ttl describing photographs from the Rijksmuseum.
+# description.ttl based on your previous assignment submissions.
 
 ex:ryanshaw rdfs:label "Ryan Shaw" ;
   ex:teaching ex:inls620 ;
