@@ -39,6 +39,4 @@ graph. This will work for any file ending in `.ttl` (for example,
 make submission.zip
 ```
 
-will create a file `submission.zip`, which you can then submit here:
-
-https://aeshin.org/teaching/assignment/218/submit/
+will create a file `submission.zip`, which you can then submit.
